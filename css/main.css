@@ -1,5 +1,6 @@
 html, body {
-  font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   background: #fff;
@@ -38,8 +39,8 @@ html, body {
   padding: 25px;
 }
 
-.showcase img {
-  width: 100%;
+.pic-paragraph {
+  min-height: 175px;
 }
 
 .showcase h1 {
@@ -54,23 +55,26 @@ html, body {
 
 .about {
   /* Background pattern from subtlepatterns.com */
-  /*
-  background-image: url('images/knitting250px.png');
-  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/little_pluses.png');
-  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/wild_flowers.png');
-  */
-  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
+  background-image: url('../images/symphony2.png');
   background-attachment: fixed;
-  background-color: rgba(69, 210, 176, 0.5);
 }
 
 .me {
   float: left;
   margin-right: 25px;
+  border-radius: 100px;
 }
 
 .section {
   text-align: justify;
+}
+
+.section hr {
+  border: 0;
+  height: 2px;
+  color: #45d2b0;
+  background-color: #45d2b0;
+  text-align: left;
 }
 
 .contact {
@@ -83,4 +87,22 @@ html, body {
   margin-left: 20px;
   margin-right: 20px;
 }
-  
+
+.more-btn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more-btn span {
+  color: #45d2b0;
+  border: 2px solid #45d2b0;
+  border-radius: 5px;
+  padding: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.more-btn span:hover {
+  background: #eee;
+}
