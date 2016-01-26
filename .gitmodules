@@ -1,0 +1,6 @@
+[submodule "storygen"]
+	path = storygen
+	url = git@github.com:treetrunk/storygen.git
+[submodule "rpg"]
+	path = rpg
+	url = git@github.com:treetrunk/rpgstuff.git
