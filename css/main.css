@@ -39,8 +39,25 @@ html, body {
   padding: 25px;
 }
 
+.showcase a {
+  text-decoration: none;
+  color: #222;
+}
+
+.showcase a:hover {
+  color: #666;
+}
+
 .pic-paragraph {
   min-height: 175px;
+}
+
+.github {
+  border-radius: 50px;
+}
+
+.github:hover {
+  background: #ccc;
 }
 
 .showcase h1 {
