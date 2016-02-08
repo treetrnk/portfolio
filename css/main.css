@@ -99,12 +99,6 @@ html, body {
   color: #fff;
 }
 
-.screenshot {
-  max-width: 350px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .more-btn {
   text-align: center;
   margin-left: auto;
@@ -133,4 +127,10 @@ input, textarea {
   padding: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.column {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
 }
