@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Roboto Light";
+  src: url(/css/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(/css/fonts/Pacifico.ttf);
+}
+
 html, body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto Light", sans-serif;
   font-size: 1em;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
