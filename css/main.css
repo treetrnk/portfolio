@@ -18,15 +18,15 @@ html, body {
 
 .header {
   text-align: center;
-  font-size: 3.5vmin;
-  min-width: 300px;
+  font-size: 20pt;
+  min-width: 275px;
 }
 
 .header h1 {
   margin-top: 75px;
   margin-bottom: 5px;
   padding: 0px;
-  font-size: 10vmin;
+  font-size: 70pt;
   font-family: "Pacifico";
   font-weight: normal;
   color: #3190e7;
