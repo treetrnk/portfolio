@@ -14,15 +14,16 @@ html, body {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   background: #fff;
+  height: 100%;
 }
 
-.header {
+header {
   text-align: center;
   font-size: 20pt;
   min-width: 275px;
 }
 
-.header h1 {
+header h1 {
   margin-top: 75px;
   margin-bottom: 5px;
   padding: 0px;
@@ -31,6 +32,10 @@ html, body {
   font-weight: normal;
   color: #3190e7;
   color: #45d2b0;
+}
+
+nav {
+  text-align: center;
 }
 
 .right {
@@ -47,20 +52,25 @@ html, body {
   padding: 7px;
 }
 
-.showcase {
+.content {
   max-width: 800px;
   min-width: 300px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   padding: 25px;
 }
 
-.showcase a {
+.content h1 {
+  color: #bbb;
+  font-size: 48px;
+  margin-top: 0px;
+}
+
+.content a {
   text-decoration: none;
   color: #222;
 }
 
-.showcase a:hover {
+.content a:hover {
   color: #666;
 }
 
@@ -71,23 +81,18 @@ html, body {
 .github {
   border-radius: 50px;
   margin-left: 5px;
+  width: 20px;
 }
 
 .github:hover {
   background: #ccc;
 }
 
-.showcase h1 {
-  color: #bbb;
-  font-size: 48px;
-  margin-top: 0px;
-}
-
 .opensource {
   background: #ccf;
 }
 
-.about {
+#about {
   /* Background pattern from subtlepatterns.com */
   background-image: url('../images/symphony.png');
   background-attachment: fixed;
@@ -101,6 +106,7 @@ html, body {
 
 .section {
   text-align: justify;
+  min-height: 100%
 }
 
 .section hr {
@@ -111,7 +117,7 @@ html, body {
   text-align: left;
 }
 
-.contact {
+#contact {
   background: #222;
   color: #fff;
 }
@@ -147,7 +153,7 @@ input, textarea {
 }
 
 .column {
-  width: 100%;
+  max-width: 48%;
   display: inline-block;
   vertical-align: top;
 }

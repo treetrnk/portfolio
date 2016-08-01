@@ -11,39 +11,58 @@
   </head>
   <body>
 
-    <div class="header">
+    <header>
       <h1>nathan hare</h1>
       <hr width=50% color=#ddd />
       web design, development, & hosting<br /><br />
-    </div>
-    
-    <div class="portfolio section">
-      <div class="showcase">
+    </header>
 
+    <nav>
+      <a href="#services">services</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+    
+    <div id="services" class="section">
+      <div class="content">
+        <a name="services"></a>
+        <h1>services</h1>
+        
+      </div>
+    </div>
+
+    <div id="portfolio" class="section">
+      <div class="content">
+        <a name="portfolio"></a>
         <h1>portfolio</h1>
         
         <div class="column">
-          <a href="https://github.com/treetrnk/rpgstuff" target="_blank" />
-            <img src="images/github.png" class="github right" title="View on GitHub" />
-          </a>
+          <img src="images/rpgstuff.png" class="screenshot" /><br />
+          <b><a href="/rpg/blog/">rpg stuff</a></b> - 2015<br />
           <a href="http://nathanhare.net/rpg/blog" target="_blank" />
-            <img src="images/globe.png" class="github right" title="View the website" />
+            <img src="images/globe.png" class="github" title="View the website" />
+            View the website
+          </a><br />
+          <a href="https://github.com/treetrnk/rpgstuff" target="_blank" />
+            <img src="images/github.png" class="github" title="View on GitHub" />
+            View the code
           </a>
-          <b><a href="/rpg/blog/">rpg stuff</a></b><br />
+          <!--<p class="pic-paragraph">RPG Stuff is my own personal project. The website contains a blog and resources to be used with tabletop roleplaying games, a personal hobby of mine. Games aside, it is a good representation of various ways that I can include interactivity into a website.</p>-->
           <hr />
-          <img src="images/rpgstuff.png" class="column right screenshot" />
-          <p class="pic-paragraph">RPG Stuff is my own personal project. The website contains a blog and resources to be used with tabletop roleplaying games, a personal hobby of mine. Games aside, it is a good representation of various ways that I can include interactivity into a website.</p><br /><br />
+          <br /><br />
         </div>
-        <br />
 
         <div class="column">
+          <img src="images/armory.png" class="screenshot" /><br />
+          <b><a>the armory</a></b> - 2015<br />
           <a href="https://github.com/treetrnk/employee_portal" target="_blank" />
-            <img src="images/github.png" class="github right" title="View on GitHub" />
+            <img src="images/github.png" class="github" title="View on GitHub" />
+            View the code
           </a>
-          <b><a>the armory</a></b><br />
+          <!--<p class='pic-paragraph'>The Armory is an employee portal that I built for my current day job. It is used by 80+ employees of ARM Group Inc. and offers an announcement feed, a calendar for work events, profiles for each individual employee, a phone list, and more. I do not have a live demo of the site available, as it is only accessible by employees, but most of the code is availble on <a href="https://github.com/treetrnk/employee_portal">GitHub</a>.</p>-->
           <hr />
-          <img src="images/armory.png" class="column right screenshot" />
-          <p class='pic-paragraph'>The Armory is an employee portal that I built for my current day job. It is used by 80+ employees of ARM Group Inc. and offers an announcement feed, a calendar for work events, profiles for each individual employee, a phone list, and more. I do not have a live demo of the site available, as it is only accessible by employees, but most of the code is availble on <a href="https://github.com/treetrnk/employee_portal">GitHub</a>.</p><br /><br />
+            <br /><br />
         </div>
         
         <!---<div class='more-btn'><span>view more</span></div>--->
@@ -52,8 +71,9 @@
       </div>
     </div>
 
-    <div class="about section">
-      <div class="showcase">
+    <div id="about" class="section">
+      <div class="content">
+        <a name="about"></a>
         <h1>about</h1>
         <img src="images/nathan-hare.png" class="me" style="width:200px;" />  
         <p>
@@ -72,8 +92,9 @@
       </div>
     </div>
 
-    <div class="contact section">
-      <div class="showcase">
+    <div id="contact" class="section">
+      <div class="content">
+        <a name="contact"></a>
         <h1 style="color: #fff;">contact</h1>
   
         <b><span style="color:#45d2b0;">nathan hare</span></b><br />
