@@ -48,6 +48,8 @@ nav {
 
 .screenshot {
   max-width: calc(100% - 20px);
+  border: 1px solid #aaa;
+  border-radius: 5px;
   padding: 7px;
 }
 
